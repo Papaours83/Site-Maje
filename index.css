@@ -150,3 +150,9 @@ body {
   box-shadow: 0 10px 20px rgba(91, 108, 255, 0.25);
 }
 
+.separator-black {
+  border: none;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.8;
+}
