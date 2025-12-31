@@ -11,15 +11,8 @@ html, body {
 }
 
 body {
-  background: linear-gradient(
-    180deg,
-    #fde9a9 0%,
-    #e6dcc8 35%,
-    #cfc7d8 65%,
-    #a9a7e9 100%
-  );
+  background-color: #ffffff;
 }
-
 
 /* NAVBAR */
 .site-header {
@@ -135,6 +128,14 @@ body {
   box-shadow: 0 12px 30px rgba(91, 108, 255, 0.35);
 
   transition: all 0.3s ease;
+}
+
+.hero,
+.next-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }
 
 /* Hover */
