@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Garamond", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #fde9a9 0%,
+    #e6dcc8 35%,
+    #cfc7d8 65%,
+    #a9a7e9 100%
+  );
+}
+
+
+/* NAVBAR */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  margin-left: 20px;
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+/* Boutons nav */
+.nav-links a {
+  position: relative;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1f1f1f;
+  text-decoration: none;
+  border-radius: 999px;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover doux */
+.nav-links a:hover {
+  background: rgba(91, 108, 255, 0.12);
+  color: #4f5fff;
+}
+
+/* Lien actif */
+.nav-links a.active {
+  background: linear-gradient(135deg, #5b6cff, #7a6cff);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(91, 108, 255, 0.35);
+}
+
+
+.btn-nav {
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #1f3c88;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start;   
+  padding-top: 140px;        /* espace sous le header */
+}
+
+.hero-content {
+  max-width: 900px;
+  width: 100%;
+  text-align: left;
+}
+
+.hero-tag {
+  margin-left: 0px;
+}
+
+.hero-content h1 {
+  font-size: 42px; /*taille du gros texte*/
+  line-height: 1.15;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 14px 34px;
+
+  background: linear-gradient(135deg, #5b6cff, #7a6cff);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border-radius: 999px; /* pill shape */
+  box-shadow: 0 12px 30px rgba(91, 108, 255, 0.35);
+
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(91, 108, 255, 0.45);
+  background: linear-gradient(135deg, #4f5fff, #6a5bff);
+}
+
+/* Active */
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 10px 20px rgba(91, 108, 255, 0.25);
+}
+
