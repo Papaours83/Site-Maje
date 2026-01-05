@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  background-image: url("DegradeCouleurFondSite.png");
+  background-image: url("D:\git site\SiteMaje\images\DegradeCouleurFondSite.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -21,14 +21,14 @@ body {
 
 /* NAVBAR */
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   background: #ffffff;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
+
+.titre,
+.section1 {
+  background: transparent;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
