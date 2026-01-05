@@ -72,7 +72,6 @@ body {
   box-shadow: 0 8px 20px rgba(91, 108, 255, 0.35);
 }
 
-
 .btn-nav {
   padding: 15px 30px;
   border-radius: 8px;
@@ -80,40 +79,68 @@ body {
   color: white;
 }
 
-/* HERO */
-.hero {
+/* Titre */
+.titre {
   min-height: 100vh;
   display: flex;
   justify-content: center;  
   align-items: flex-start;   
   padding-top: 140px;        /* espace sous le header */
 }
-
-.hero-content {
-  max-width: 900px;
-  width: 100%;
-  text-align: left;
-}
-
-.hero-tag {
+/*Titre-Tag*/
+.titre-tag {
   margin-left: 0px;
 }
-
-.hero-content h1 {
+/*Titre-titre*/
+.titre-titre h1 {
   font-size: 42px; /*taille du gros texte*/
   line-height: 1.15;
   margin-top: 10px;
   margin-bottom: 24px;
 }
 
-.hero-content p {
-  font-size: 16px;
-  line-height: 1.6;
-  max-width: 700px;
-  margin-bottom: 20px;
+
+/*Premiere separateur*/
+.separator-black {
+  border: none;
+  height: 1px;
+  background-color: #33ff00;
+  opacity: 0.4;
+}
+/*colonne*/
+.hero,
+.next-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }
 
-.btn-primary {
+
+/* Section 1 */
+.section1 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start;   
+  padding-top: 140px;        /* espace sous le header */
+}
+/*Section1-tag*/
+.section1-tag {
+  margin-left: 0px;
+}
+/*Section1-titre*/
+.section1-titre h1 {
+  font-size: 42px; /*taille du gros texte*/
+  line-height: 1.15;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+
+
+/*btn-content1*/
+.btn-content1 {
   display: inline-block;
   margin-top: 32px;
   padding: 14px 34px;
@@ -129,31 +156,14 @@ body {
 
   transition: all 0.3s ease;
 }
-
-.hero,
-.next-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-}
-
 /* Hover */
-.btn-primary:hover {
+.btn-content1:hover {
   transform: translateY(-2px);
   box-shadow: 0 18px 40px rgba(91, 108, 255, 0.45);
   background: linear-gradient(135deg, #4f5fff, #6a5bff);
 }
-
 /* Active */
-.btn-primary:active {
+.btn-content1:active {
   transform: translateY(0);
   box-shadow: 0 10px 20px rgba(91, 108, 255, 0.25);
-}
-
-.separator-black {
-  border: none;
-  height: 1px;
-  background-color: #000;
-  opacity: 0.8;
 }
