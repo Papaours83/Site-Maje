@@ -11,8 +11,13 @@ html, body {
 }
 
 body {
-  background-color: #ffffff;
+  background-image: url("DegradeCouleurFondSite.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 
 /* NAVBAR */
 .site-header {
