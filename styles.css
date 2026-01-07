@@ -85,11 +85,11 @@ body {
 
 /* Titre */
 .titre {
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;  
   align-items: flex-start;   
-  padding-top: 140px;        /* espace sous le header */
+  padding-top: 70px;        /* espace sous le header */
 }
 /*Titre-Tag*/
 .titre-tag {
@@ -97,10 +97,10 @@ body {
 }
 /*Titre-titre*/
 .titre-titre h1 {
-  font-size: 42px; /*taille du gros texte*/
+  font-size: 52px; /*taille du gros texte*/
   line-height: 1.15;
-  margin-top: 10px;
-  margin-bottom: 24px;
+  margin-top: 5px;
+  margin-bottom: 21px;
 }
 
 
@@ -125,7 +125,7 @@ body {
 .section1 {
   min-height: 100vh;
   display: flex;
-  justify-content: center;  
+  justify-content: space-around;  
   align-items: flex-start;   
   padding-top: 140px;        /* espace sous le header */
 }
