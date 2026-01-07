@@ -103,23 +103,6 @@ body {
   margin-bottom: 21px;
 }
 
-.title-box {
-  display: inline-block;
-  background-color: #ffffff;
-  padding: 18px 26px;
-  margin-bottom: 20px;
-
-  border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-
-.title-box h1 {
-  margin: 0;
-  font-size: 42px;
-  line-height: 1.15;
-}
-
-
 
 /*Premiere separateur*/
 .separator-black {
@@ -157,6 +140,24 @@ body {
   margin-top: 10px;
   margin-bottom: 24px;
 }
+
+/* Rectangle blanc derrière les titres */
+.title-box {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  margin-bottom: 22px;
+
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Ajustement du texte à l’intérieur */
+.title-box h1 {
+  margin: 0;
+  line-height: 1.15;
+}
+
 
 
 
