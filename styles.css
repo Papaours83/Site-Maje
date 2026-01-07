@@ -104,9 +104,21 @@ body {
 }
 
 .title-box {
-  background: rgba(255,255,255,0.85);
-  backdrop-filter: blur(6px);
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 18px 26px;
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
+
+.title-box h1 {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
 
 
 /*Premiere separateur*/
